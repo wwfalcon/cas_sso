@@ -27,6 +27,8 @@ cas_sso:
     default:  true
   cas_sso_user_approved:
     default:  true
+  cas_sso_callback_url:
+    default:  '/auth/cas/callback'     
   cas_sso_groups_allow_filter:
     default:  false
   cas_sso_groups_allow:
