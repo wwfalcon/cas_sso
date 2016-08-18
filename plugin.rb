@@ -127,6 +127,7 @@ class CASAuthenticator < ::Auth::Authenticator
                           strategy.options[:login_url] = SiteSetting.cas_sso_login_url
                           strategy.options[:logout_url] = SiteSetting.cas_sso_logout_url
                           strategy.options[:uid_field] = SiteSetting.cas_sso_uid_field
+                          strategy.options[:callback_url] = SiteSetting.cas_sso_callback_url                          
                         }
     end
   end
